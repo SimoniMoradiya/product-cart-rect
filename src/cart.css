@@ -1,0 +1,82 @@
+.table-title{
+    border-bottom: 1px solid #e8e7ec;
+    text-align: center;
+}
+
+.product-name,.product-quantity, .product-subtotal{
+    color: #040202;
+    font-weight: 500;
+    padding: 0;
+    font-size: 18px;
+    padding-left: 26px;
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 19px;
+}
+
+.cart-item{
+    border-bottom: 1px solid #e8e7ec; 
+    padding: 20px 0px ;
+}
+
+.product-item{
+    display: flex;
+}
+
+.cart-item-img{
+    max-width: 100px;
+    height: 95px;
+    margin-right: 22px;
+}
+
+.cart-item-name{
+    color: #040202;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
+
+.cart-price{
+    color: #040202;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.product-text{
+    padding: 20px 0 20px 26px;
+    border: none;
+}
+
+.cart-item-price{
+    text-align: center;
+    color: #040202;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+}
+
+.quantity,.cart-price-box,.remove-cart-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-total-box{
+    padding-top: 30px;
+}
+
+.sub-total{
+    text-align: center;
+}
+
+.remove-cart{
+    cursor: pointer;
+}
+
+.sub-total p{
+    text-align: center;
+    color: #040202;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+}
